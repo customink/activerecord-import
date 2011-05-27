@@ -10,6 +10,8 @@ platforms :ruby do
   gem "pg",                     "~> 0.9"
   gem "sqlite3",                "~> 1.3.10"
   gem "seamless_database_pool", "~> 1.0.13"
+  gem 'activerecord-oracle_enhanced-adapter', '>=1.3.1'
+  gem 'ruby-oci8'
 end
 
 platforms :jruby do

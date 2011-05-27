@@ -40,9 +40,10 @@ postgresql: &postgresql
 postgis:
   <<: *postgresql
 
-oracle:
-  <<: *common
-  adapter: oracle
+oracle_enhanced:
+  adapter: oracle_enhanced
+  username: arimport
+  database: <tnsname>
   min_messages: debug
 
 sqlite:
